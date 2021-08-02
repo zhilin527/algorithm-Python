@@ -1,0 +1,11 @@
+# WebRTC
+getUserMedia，这类api通过浏览器获得本地的音视频流，返回给浏览器对象，
+RTCPeerConnection，客户端创建RTCPeerConnection，设置icecandidate事件回调，监听
+
+ClientA调用PeerConnection的CreateOffer接口创建自己的SDP offer，然后把这个SDP Offer信息通过Signaling Server通道中转发给ClientB
+clientB收到offer，回answer，offer，answer交换之后准备连接，SingalServer
+
+RTCDataChannel，传输二进制树的组件，依靠这个传输
+clientA通过ICE服务器获取candidate，与clientB进行交换。ICEServer。
+
+然后通过icecandidate事件回调读取远端视频流
