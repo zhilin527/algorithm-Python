@@ -206,5 +206,3 @@ hello-world         latest              bf756fb1ae65        7 months ago        
 ## 2.8 docker 网络
 
 docker 的笔记
-
-> https://blog.csdn.net/qq_21197507/article/details/115071715
