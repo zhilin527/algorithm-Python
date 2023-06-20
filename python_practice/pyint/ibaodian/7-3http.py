@@ -1,1 +1,0 @@
-# -*- coding: UTF-8 -*-import socketsc = socket.socket()sc.connect(('www.baidu.com',80))http = b'GET / HTTP/1.1\r\nHost: www.baidu.com\r\n\r\n'sc.send(http)buf = sc.recv(1024)print('received -> {0}'.format(buf.decode()))sc.close()
